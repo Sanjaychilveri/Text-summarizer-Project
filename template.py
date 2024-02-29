@@ -42,6 +42,6 @@ for filepath in list_of_files:
         with open (filepath, 'w') as f:
             pass
             logging.info(f"Created file: {filepath}")
-
+            
     else:
         logging.info(f"File {filepath} is already exists")
